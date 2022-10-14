@@ -1,0 +1,16 @@
+{
+  "name": "what-the-shell",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --remote",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.36.5",
+    "@slidev/theme-apple-basic": "^0.20.0"
+  },
+  "devDependencies": {
+    "playwright-chromium": "^1.27.1"
+  }
+}
